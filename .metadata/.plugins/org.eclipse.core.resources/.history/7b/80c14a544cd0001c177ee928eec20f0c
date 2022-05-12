@@ -1,0 +1,26 @@
+package com.chainsys.threads;
+
+public class State {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      checkingStateofThreads();
+	}
+	public static void checkingStateofThreads()
+	{
+		RunnableWorker obj=new RunnableWorker();
+		Thread t1=new Thread(obj);
+		Thread t2=new Thread(obj);
+		System.out.println(t1.getId()+" T1 State "+t1.getState());
+		System.out.println(t2.getId()+" T2 State "+t2.getState());
+			t1.start();
+			t2.start();
+System.out.println("T1 State "+t1.getState());
+		System.out.println("T2 State "+t2.getState());
+		  	try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+}
+}

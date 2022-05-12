@@ -1,0 +1,16 @@
+1648019902608	Delete element
+1648089293323	Delete element
+1648099555349	Delete element
+1648101678519	Delete element
+1648175954854	Move compilation unit
+1648176001911	Move compilation unit
+1648199308383	Encapsulate field 'regNo'
+1648199330602	Encapsulate field 'yearOfPurchase'
+1648200532540	Encapsulate field 'bookNo'
+1648200539490	Encapsulate field 'yearOfPublish'
+1648200544809	Encapsulate field 'name'
+1648200550047	Encapsulate field 'title'
+1648200554364	Encapsulate field 'author'
+1648201035881	Encapsulate field 'category'
+1648201463346	Encapsulate field 'color'
+1648201467754	Encapsulate field 'fuel'

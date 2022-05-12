@@ -1,0 +1,19 @@
+package com.chainsys.threads;
+
+public class Emp
+{
+   public int Eno;
+   public String Name;
+   private Emp()
+   {
+      System.out.println("Emp Created");
+   }
+   private void startWork()
+   {
+      System.out.println("WorkStarted");
+	}
+	private void pauseWork(int duration)
+	{
+		System.out.println("pauseWork for "+duration );
+	}
+}
