@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 // Of Whose object is to be created
 class Test {
     // creating a private field
-    private String s;
+    public String s;
  
     // Constructor of this class
  

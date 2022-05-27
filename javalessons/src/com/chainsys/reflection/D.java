@@ -40,11 +40,11 @@ class D {
  
         // Getting methods of the class through the object
         // of the class by using getMethods
-        Method[] methods = cls.getMethods();
+       Method[] methods = cls.getMethods();
  
         // Printing method names
-        for (Method method : methods)
-            System.out.println(method.getName());
+        for (int i = 0; i < methods.length; i++)
+           System.out.println(methods[i].getName());
  
         // Creates object of desired method by
         // providing the method name and parameter class as
