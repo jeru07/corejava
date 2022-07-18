@@ -16,6 +16,7 @@ import com.chainsys.encapsulation.DemoAChild;
 import com.chainsys.exceptions.A;
 import com.chainsys.exceptions.DemoTrace;
 import com.chainsys.exceptions.NestedTry;
+import com.chainsys.project.customerdata;
 import com.chainsys.strings.StringBuilderDemo;
 import com.chainsys.strings.StringLessons;
 import com.chainsys.unittest.Banktest;
@@ -43,8 +44,12 @@ public class Startup {
  */
 	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
-     //ListArrayListDemo.usingStringArrayList();
-		
+     // ListArrayListDemo.usingStringArrayList();
+		customerdata ob = new customerdata();
+		ob.getdata();
+		ob.calc();
+		ob.display();
+		}
 	}
 
-}
+

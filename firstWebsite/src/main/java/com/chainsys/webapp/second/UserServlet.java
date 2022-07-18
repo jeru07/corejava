@@ -53,18 +53,20 @@ public class UserServlet extends HttpServlet {
 			out.print("session not created");
 			return;
 		}
-		else {
-			User userData = (User)session.getAttribute("user");
+		else 
+		{
+			String key="user"+session.getId();
+			User userData = (User)session.getAttribute(key);
 			if(userData == null) {
 				out.print("Object removed from session ");
 				return;
 			}
+		
 			out.print("<p>user name : "+userData.getUserId());
 			out.print("<p>password : "+userData.getPassword());
 			session.removeAttribute("user");
-			// this will remove user object from session collection  
+			// this will remove user object from session collection 
 		}
-		
 	}
 
 }

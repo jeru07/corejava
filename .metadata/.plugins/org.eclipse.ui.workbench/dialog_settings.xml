@@ -3,8 +3,8 @@
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jpt.jpa"/>
 			<item value="org.eclipse.wst.web.ui"/>
-			<item value="org.eclipse.jst.ws.ui.new"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
@@ -15,25 +15,39 @@
 		<list key="orderedElements">
 			<item value="org.eclipse.wst.server.ui.ServersView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.ui.window.preferences"/>
+			<item value="org.eclipse.wst.sse.ui.open.file.from.source"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
 			<item value="2"/>
-			<item value="3"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
 			<item value="serv"/>
 			<item value="ser"/>
-			<item value="cons"/>
 			<item value="c"/>
 			<item value="con"/>
+			<item value="prefere"/>
+			<item value="editor se"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
 	</section>
 	<section name="FileSystemImportWizard">
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".js"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.DefaultTextEditor"/>
+	</section>
+	<section name="PreferencesImportWizard">
 	</section>
 </section>

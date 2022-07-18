@@ -19,8 +19,7 @@ public class Calculator {
 	{
 		int result=param1+param2;
 				return result;
-				
-			
+					
 	}
 	/**
 	 * divide method

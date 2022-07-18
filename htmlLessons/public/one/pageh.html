@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Input elements</title>
+</head>
+<body>
+<div>
+	<div>
+	<label for='year'>
+	years of experience
+       <input name='year' id='year' type='number' step=0.05 min=5 max=50 required> 
+       </label>
+	</div>
+	<div>
+	<label for='age'>
+	age range;
+       <input name='age' id='age' type='range' step=1 min=22 max=30 value=23 required> 
+       </label>
+	</div>
+	<div>
+	<label for='phone'>
+	phone number;
+      <input name='phone'id='phone' type='tel' required pattern='[0-9]{3}-[0-9{3}-[0-9]{4}]' placeholder='123-456-6789'> 
+       </label>
+	</div>
+	<div>
+	<input name='course' id='course' type="checkbox" checked=true required value='computer science'>
+	<input name='course' id='course' type="checkbox" required value='english'>
+	<input name='course' id='course' type="checkbox" required value='mathematics'>
+	</div>
+	<div>
+		<label for='secret'>
+		Hidden content
+			<input type='hidden' name='secret' value='password'>
+		</label>
+	</div>
+	<div>
+	<label for='url'>
+	url:
+	<input type='url' name='url' value='www.google.com'>
+	</label>
+	</div>
+	<div>
+	<label for=''>
+	<select name='listoffruits' title='select a fruit'>
+	<option selected>select fruit</option>
+		<option>apple</option>
+		<option>orange</option>
+		<option>mango</option>
+	<optgroup label="watermelon">
+		<option>red watermelon</option>
+		<option>green watermelon</option>
+		<option>yellow watermelon</option>
+	</optgroup>
+	</select>
+	</label>
+	</div>
+	<div>
+	<label for='comments'>
+		<textarea name='comments' cols='50' rows='5'>
+		</textarea>
+	</label>
+	</div>
+	<div>
+	<input type='submit' value=click me'>
+	<input type='reset' value='reset'>
+	<input type='image' alt='close' name='close' src='../images/html2.jpg' width=25 height=25>
+	</div>
+</div>
+</body>
+</html>

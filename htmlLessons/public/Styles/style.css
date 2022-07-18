@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+
+/* class selectors */
+.centered {
+	text-align: center;
+}
+
+.largefont {
+	font-size: large;
+	background-color: green;
+}
+
+.mediumfont {
+	font-size: medium;
+}
+
+.smallfont {
+	font-size: small;
+}
+
+.div {
+	color: red;
+}
+
+/* type selector*/
+div>p {
+	color: brown;
+	font-size: medium;
+}
+
+/* id selectors*/  
+#div1 {
+	color: green;
+	font-size: larger;
+	text-align: left;
+}
+/*pseudo elements*/
+div:nth-child(even) {
+	color: brown;
+	font-size: medium;
+}
+
+div:nth-child(odd) {
+	color: orange;
+	font-size: large;
+}
+
+div:nth-child(5n+1) {
+	color: cyan;
+	font-size: large;
+}
+/*
+div:first-child {
+	color: yellow;
+	font-size: medium;
+}
+
+div:last-child {
+	color: blue;
+	font-size: medium;
+}*/
+
+/*type selectors and pesudo selectors for link */
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+ /* #chennai
+{
+	color: blue;
+}
+
+#madurai
+{
+	color: lime;
+}
+
+#thirunelveli
+{
+	color: purple;
+}*/
+/* attriblute selector */
+/*a[href="https://chennai.nic.in"] {
+	color:blue;
+}
+
+a[href="https://madurai.nic.in"] {
+	color:grey;
+}
+
+a[href="https://thirunelveli.nic.in"] {
+	color:purple;
+}*/
+
+input[id="fname"]
+{
+	color: silver;
+	background-color: salmon;
+}
+a[href*="chennai.nic"] {
+	color:blue;
+}
+
+a[href*="madurai.nic"] {
+	color:grey;
+}
+
+a[href*="thirunelveli.nic"] {
+	color:purple;
+}
+

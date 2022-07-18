@@ -24,7 +24,7 @@ public class LinkedListDemo {
 		Iterator<String> stringIterator=stringLinkedList.iterator();
 		while(stringIterator.hasNext())
 		{
-			System.out.print(stringIterator.next()+" ");
+			System.out.print(stringIterator.next()+".");
 		}
 		stringLinkedList.remove("F");
 		stringLinkedList.remove(2);
@@ -38,8 +38,7 @@ public class LinkedListDemo {
 			stringIterator=stringLinkedList.iterator();
 	
 			while(stringIterator.hasNext()) {
-				System.out.print(stringIterator.next()+" ");
-				
+				System.out.print(stringIterator.next()+"=");
 			}
 			
 		}

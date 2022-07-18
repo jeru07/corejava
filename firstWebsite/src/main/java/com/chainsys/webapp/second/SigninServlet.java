@@ -46,7 +46,7 @@ public class SigninServlet extends HttpServlet {
          return;
          // the session is terminator.
      }
-     String url="Welcome";
+     String url="UserServlet";
      String encodedurl=response.encodeURL(url);
      // it will append session id to the url
      System.out.println(encodedurl);

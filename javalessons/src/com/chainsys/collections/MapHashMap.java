@@ -14,9 +14,12 @@ public class MapHashMap {
 	public static void usingGenericMapDemoA()
     {
         HashMap<String, String> secondMap=new HashMap<String, String> ();
-        System.out.println("Size "+secondMap.size()); secondMap.put ("k1", "ABcd");
-        secondMap.put ("k2", "ABcd"); secondMap.put ("k3", "ABcd");
-        secondMap.put ("k4", "ABcd"); System.out.println("Size "+secondMap.size());
+        System.out.println("Size "+secondMap.size());
+        secondMap.put ("k1", "ABcd");
+        secondMap.put ("k2", "ABcd"); 
+        secondMap.put ("k3", "ABcd");
+        secondMap.put ("k4", "ABcd");
+        System.out.println("Size "+secondMap.size());
         Set<Map.Entry<String, String>> setofMapEntry = secondMap.entrySet ();
         Iterator<Map.Entry<String, String>> mapIterator = setofMapEntry.iterator ();
         while (mapIterator.hasNext ())

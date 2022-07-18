@@ -55,9 +55,6 @@ public class GlobalState extends HttpServlet {
 	        		System.out.println("values;"+values[i]);
 	        	}
 	        }
-	        
-	        
-	        
 	        String submitValue = request.getParameter("submit");
 	        ServletContext ctx=this.getServletContext();
 	        if (submitValue.equals("set")) {
